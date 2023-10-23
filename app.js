@@ -59,7 +59,7 @@ async function updatePresence() {
   let activity = {
     details: 'Exploring SwatchSeries Movies', // Replace with a more specific description
     state: 'Idle', // Use "Idle" or "Browsing" depending on your preference
-    largeImageKey: 'swatchseries-icon', // Define this in your Discord Developer Portal
+    largeImageKey: 'https://raw.githubusercontent.com/Zirmith/swatchseries-rpc/main/icons/unnamed.png', // Define this in your Discord Developer Portal
     startTimestamp: new Date(),
   };
 
