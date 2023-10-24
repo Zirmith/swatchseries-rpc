@@ -1,8 +1,8 @@
 const { app, BrowserWindow, Menu } = require('electron');
 const DiscordRPC = require('discord-rpc');
 
-// Define your Discord application ID
-const discordAppId = 'YOUR_APPLICATION_ID';
+const discordAppId = process.env.sec;
+require('dotenv').config()
 
 // Initialize Discord RPC
 DiscordRPC.register(discordAppId);
